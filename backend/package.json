@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pipedream/emailoctopus": "^0.1.1",
+    "axios": "^1.6.7",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "nodemailer": "^6.9.9",
+    "read-excel-file": "^5.7.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
